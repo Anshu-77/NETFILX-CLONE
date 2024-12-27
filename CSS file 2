@@ -1,0 +1,48 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+@media screen and (max-width: 916px) {
+  .container1 {
+    flex-wrap: wrap;
+  }
+  .container1 > .element1 > :first-child {
+    padding: 20px 0;
+  }
+}
+.element2 {
+  position: relative;
+}
+.element2 img {
+  top: 7px;
+  width: 455px;
+  position: relative;
+  z-index: 10;
+}
+.element2 video {
+  width: 405px;
+  position: absolute;
+  top: 51px;
+  right: 19px;
+}
+.container1 > .element1 > :first-child {
+  font-size: 48px;
+  font-weight: 900;
+}
+.container1 > .element1 > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+.element1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.second {
+  flex-direction: row-reverse;
+}
