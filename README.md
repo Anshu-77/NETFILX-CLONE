@@ -1,3 +1,3 @@
 # NETFLIX-CLONE
 <br> update readme
-Author - Anshu Kumar
+Author - Anshu raj
